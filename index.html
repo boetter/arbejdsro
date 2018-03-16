@@ -1,8 +1,53 @@
-<html>
+<!doctype html>
+<!--[if lte IE 9]>
+<html lang="en" class="oldie">
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en">
+<!--<![endif]-->
+
 <head>
-<title>Arbejdsro.com – Find ro til at koncentrere dig i København</title>
+  <meta charset="utf-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Arbejdsro.com – Find en stille arbejdsplads i København</title>
+  <link rel="stylesheet" media="screen" href="style.css" />
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,900,400italic,700italic' rel='stylesheet'>
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="Arbejdsro.com">
+  <meta name="twitter:title" content="Find rolige steder at arbejde">
+  <meta name="twitter:description" content="København er fuld af co-working og caféer, men hvor får man rent faktisk lavet noget?">
+  <meta name="twitter:image" content=" ">
+  <meta property="og:image" content=" " itemprop="thumbnailUrl">
+  <meta property="og:title" content="Find rolige steder at arbejde">
+  <meta property="og:url" content="https://arbejdsro.com">
+  <meta property="og:site_name" content="Arbejdsro.com">
+  <meta property="og:description" content="...">  
+  <script>
+  function go(loc) {
+    document.getElementById('airtable').src = loc;
+  }
+  </script>
 </head>
+
 <body>
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrCmAfYqOqIi5lOe?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+  <header class="main-header" id="main-header">
+<object type="image/svg+xml" data="logo.svg" class="logo">Logo</object>
+
+<p class="name"><strong>Arbejdsro.com</strong> – Find et roligt sted at arbejde</p>
+<a href="http://www.bing.com" target="airtable" class="add">Tilføj et sted</a>
+
+</header>
+
+  <div id="airtable-iframe-wrap" role="main">
+
+    <iframe id="airtable" name="airtable" src="https://airtable.com/embed/shrCmAfYqOqIi5lOe" sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-popups allow-forms" allowTransparency="true" allowfullscreen="true" frameborder="0" class="airtable-iframe"></iframe>
+
+  </div>
+
 </body>
+
 </html>
+
