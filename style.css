@@ -21,8 +21,9 @@ body {
     height:81px;
     float:left;
 }
-.name{
-
+.name a{
+    text-decoration:none;
+    color:black;
 }
 
 a.add {
@@ -41,18 +42,6 @@ a.add:hover{
     background:black;
 }
 
-@media (max-width: 830px) {
-    html {
-        font-size: 14px
-    }
-}
-
-@media (max-width: 550px) {
-    html {
-        font-size: 13px
-    }
-}
-
 .main-header {
     background: #ffffff;
     height: 105px;
@@ -64,9 +53,14 @@ a.add:hover{
 
 @media (max-width: 400px) {
     .main-header {
-        height: 62px;
-        min-height: 62px;
-        min-width: 0
+        min-width: 0;
+    }
+    html,
+    body {
+        font-size:17px;
+    }
+    .name{
+        margin-bottom:3px;
     }
 }
 
